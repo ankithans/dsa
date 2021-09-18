@@ -1,3 +1,9 @@
+// using doubly linked list and map
+// head -----> tail
+// every new element comes after head
+// if an element is accessed/get then delete it and add it next to head
+// tail->prev is always deleted on delete
+
 class LRUCache {
 public:
     class node {
